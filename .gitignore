@@ -1,0 +1,22 @@
+# Credentials, runtime settings and personal data
+.env
+.env.*
+!.env.example
+data/
+backups/
+logs/
+*.log
+*.session*
+*.sqlite*
+*.db
+# Local Python/Node environments and build output
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+node_modules/
+.coverage
+.pytest_cache/
+.ruff_cache/
+*.zip
+.DS_Store

@@ -1,0 +1,5 @@
+# Python dependencies only. Install PM2 separately with: npm install -g pm2
+python-telegram-bot==22.8
+httpx[socks]==0.28.1
+Pillow>=11,<13
+python-dotenv>=1.2,<2
